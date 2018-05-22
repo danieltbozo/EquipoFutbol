@@ -9,9 +9,10 @@ namespace EquipoFutbol1.Models
 {
     public class Equipo
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        
 
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdEquipo { get; set; }
         public string NombreEquipo { get; set; }
         public virtual List<Jugador> Jugadores { get; set; }

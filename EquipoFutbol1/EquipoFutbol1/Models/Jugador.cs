@@ -18,5 +18,7 @@ namespace EquipoFutbol1.Models
         [ForeignKey("IdEquipo")]
         public virtual Equipo Equipo { get; set; }
         public int IdEquipo { get; set; }
+
+        public virtual List<Equipo> Equipos { get; set; }
     }
 }

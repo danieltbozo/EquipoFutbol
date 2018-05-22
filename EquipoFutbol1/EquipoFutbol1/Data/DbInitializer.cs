@@ -18,10 +18,15 @@ namespace EquipoFutbol1.Data
 
             var equipos = new Equipo[]
             {
-            new Equipo{IdEquipo=1, NombreEquipo="Argentina"},
-            new Equipo{IdEquipo=2,NombreEquipo="Bolivia"},
-            new Equipo{IdEquipo=3,NombreEquipo="Brasil"},
-            new Equipo{IdEquipo=4,NombreEquipo="Alemania"},
+            //new Equipo{IdEquipo=1, NombreEquipo="Argentina"},
+            //new Equipo{IdEquipo=2,NombreEquipo="Bolivia"},
+            //new Equipo{IdEquipo=3,NombreEquipo="Brasil"},
+            //new Equipo{IdEquipo=4,NombreEquipo="Alemania"},
+
+             new Equipo{NombreEquipo="Argentina"},
+             new Equipo{NombreEquipo="Bolivia"},
+             new Equipo{NombreEquipo="Brasil"},
+             new Equipo{NombreEquipo="Alemania"},
             };
             foreach (var e in equipos)
             {
