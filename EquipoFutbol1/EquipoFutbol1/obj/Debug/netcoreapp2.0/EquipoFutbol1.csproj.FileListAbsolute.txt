@@ -1,0 +1,11 @@
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\obj\Debug\netcoreapp2.0\EquipoFutbol1.csprojAssemblyReference.cache
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\obj\Debug\netcoreapp2.0\EquipoFutbol1.csproj.CoreCompileInputs.cache
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\obj\Debug\netcoreapp2.0\EquipoFutbol1.AssemblyInfoInputs.cache
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\obj\Debug\netcoreapp2.0\EquipoFutbol1.AssemblyInfo.cs
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\bin\Debug\netcoreapp2.0\EquipoFutbol1.deps.json
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\bin\Debug\netcoreapp2.0\EquipoFutbol1.runtimeconfig.json
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\bin\Debug\netcoreapp2.0\EquipoFutbol1.runtimeconfig.dev.json
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\bin\Debug\netcoreapp2.0\EquipoFutbol1.dll
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\bin\Debug\netcoreapp2.0\EquipoFutbol1.pdb
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\obj\Debug\netcoreapp2.0\EquipoFutbol1.dll
+c:\users\daniel.terceros\source\repos\EquipoFutbol1\EquipoFutbol1\obj\Debug\netcoreapp2.0\EquipoFutbol1.pdb

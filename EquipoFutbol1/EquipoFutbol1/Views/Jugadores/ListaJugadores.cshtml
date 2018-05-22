@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EquipoFutbol1.Models.Jugador>
+
+@{
+    ViewData["Title"] = "ListaJugadores";
+}
+
+<h2>ListaJugadores</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Edad)
+                </th>           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreJugador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Edad)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdJugador">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdJugador">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdJugador">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

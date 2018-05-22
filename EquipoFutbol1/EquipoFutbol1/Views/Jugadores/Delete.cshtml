@@ -1,0 +1,39 @@
+﻿@model EquipoFutbol1.Models.Jugador
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Borrar</h2>
+
+<h3>Esta seguro de borrar?</h3>
+<div>
+    <h4>Jugador</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nombre
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NombreJugador)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Edad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Edad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Equipo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Equipo.IdEquipo)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdJugador" />
+        <input type="submit" value="Borrar" class="btn btn-default" /> |
+        <a asp-action="Index">Volver</a>
+    </form>
+</div>

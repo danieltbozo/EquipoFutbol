@@ -1,0 +1,36 @@
+﻿@model IEnumerable<EquipoFutbol1.Models.Equipo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Equipos
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreEquipo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdEquipo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdEquipo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdEquipo">Delete</a> |
+                <a asp-area="" asp-route-id="@item.IdEquipo" asp-controller="Jugadores" asp-action="ListaJugadores">Ver Jugadores</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
