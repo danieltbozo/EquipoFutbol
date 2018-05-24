@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,12 +9,10 @@ namespace EquipoFutbol1.Models
 {
     public class Equipo
     {
-        
-
         [Key]
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdEquipo { get; set; }
-        public string NombreEquipo { get; set; }
-        public virtual List<Jugador> Jugadores { get; set; }
+        public string NombreEquipo { get; set; }      
     }
 }
